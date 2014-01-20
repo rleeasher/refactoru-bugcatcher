@@ -9,9 +9,9 @@ var addPreference = function(title, value){
 var getPreferenceByTitle = function(title){
 
 
-    for(var pref in preferences){
-      if(pref.title === title){
-        return pref.value;
+    for(i=0; i < preferences.length; i++){
+      if(preferences[i].title === title){
+        return preferences[i].value;
       }
     }
 }
