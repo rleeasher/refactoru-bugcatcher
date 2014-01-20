@@ -17,8 +17,6 @@ var width = 960;
 var friendSpacing = 20;
 var friendWidth = (width / (paginationCount / 2)) - (friendSpacing * 2);
 
-console.log(paginationCount);
 
-console.log(friendSpacing);
 console.log("FriendWidth = " + friendWidth);
 
