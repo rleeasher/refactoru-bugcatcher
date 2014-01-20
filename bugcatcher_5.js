@@ -11,7 +11,7 @@ var getPreferenceByTitle = function(title){
 
     for(i=0; i < preferences.length; i++){
       if(preferences[i].title === title){
-        return preferences[i].value;
+        return preferences[i];
       }
     }
 }
@@ -26,4 +26,4 @@ for(i=0;i < preferences.length;i++){
 }
 
 //check that the 'Username' preference is set
-console.log('Checking Username: ' + getPreferenceByTitle('Username'));
+console.log('Checking Username: ',getPreferenceByTitle('Username'));
